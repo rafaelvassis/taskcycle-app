@@ -1,0 +1,64 @@
+.mainNotFound {
+  max-width: 800px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding-bottom: 64px;
+  line-height: 1.6;
+  margin-inline: auto;
+  display: block;
+}
+
+.mainNotFound h1 {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.mainNotFound h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 32px 0 16px;
+  text-align: left;
+}
+
+.mainNotFound h3 {
+  font-size: 18.7px;
+  font-weight: bold;
+}
+
+.mainNotFound p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 16px 0;
+  color: var(--text-color);
+}
+
+.mainNotFound ul {
+  padding-left: 16px;
+  margin: 16px 0 16px 24px;
+  list-style: disc;
+}
+
+.mainNotFound li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.mainNotFound a {
+  color: var(--link-color);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.mainNotFound a:hover {
+  opacity: 0.85;
+}
+
+.mainNotFound img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 2rem 0;
+}

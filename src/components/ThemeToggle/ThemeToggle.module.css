@@ -1,0 +1,17 @@
+.btnThemeToggle {
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color: var(--text-over-primary);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20%;
+  transition: all 0.1s ease-in-out;
+}
+
+.btnThemeToggle:hover {
+  filter: brightness(80%);
+  color: var(--text-over-primary);
+}

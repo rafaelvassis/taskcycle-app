@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  white-space: pre-line;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonsContainer button {
+  min-width: auto;
+  margin: 0;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.buttonsContainer svg {
+  width: 30px;
+  height: 30px;
+}
+
+.thumbsUp {
+  color: #cdd3e1;
+  background-color: var(--primary);
+}
+
+.thumbsDown {
+  color: #cdd3e1;
+  background-color: var(--error);
+}

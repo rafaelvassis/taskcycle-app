@@ -1,0 +1,58 @@
+.cycles {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid var(--primary);
+  border-radius: 15px;
+}
+
+.circlesContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.cycleDot {
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  text-shadow:
+    -1px 0px 5px rgb(255, 255, 255);
+  font-weight: 700;
+  color: rgb(2, 0, 0);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.35),
+    rgba(0, 0, 0, 0.25)
+  );
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.cycleDot:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 6px 10px rgba(0, 0, 0, 0.35);
+}
+
+.workTime {
+  background-color: #3b82f6;
+}
+
+.shortBreakTime {
+  background-color: #2dd4bf;
+}
+
+.longBreakTime {
+  background-color: #a78bfa;
+}

@@ -1,0 +1,5 @@
+.countdown {
+  font-size: clamp(2rem, 25vw, 6rem);
+  text-align: center;
+  font-weight: bold;
+}

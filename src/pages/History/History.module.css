@@ -1,0 +1,41 @@
+.mainHistory {
+  width: 100%;
+  margin-top: 32px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+  gap: 32px;
+}
+
+.heading button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  min-width: 48px;
+  height: 48px;
+  transition: all 0.1s ease-in-out;
+  background-color: var(--error);
+  color: var(--text-over-error);
+}
+
+.heading svg {
+  min-width: 24px;
+  height: 24px;
+}
+
+.noHistory {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,37 @@
+.responsiveTable {
+  overflow-x: auto;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 2rem #0003;
+}
+.responsiveTable table {
+  width: 100%;
+  min-width: 640px;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+
+.responsiveTable th {
+    background-color: var(--gray-600);
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+.responsiveTable th:hover {
+    filter: brightness(80%)
+}
+
+.responsiveTable td {
+    background-color: var(--gray-800);
+}
+
+.responsiveTable th,
+.responsiveTable td {
+    border-bottom: 3px solid var(--gray-700);
+    text-align: center;
+    padding: 15px;
+}
+
+.responsiveTable span {
+    color: var(--gray-300);
+}
