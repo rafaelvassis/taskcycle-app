@@ -1,7 +1,7 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/rafaelvassis/taskcycle-app)
 ![GitHub forks](https://img.shields.io/github/forks/rafaelvassis/taskcycle-app)
 ![GitHub issues](https://img.shields.io/github/issues/rafaelvassis/taskcycle-app)
-![Vercel](https://img.shields.io/endpoint?url=https://vercelbadge.com/api/rafaelvassis/taskcycle-app)
+[![Deployment](https://img.shields.io/badge/deploy-vercel-blue)](https://taskcycle-app.vercel.app/)
 ![License](https://img.shields.io/github/license/rafaelvassis/taskcycle-app)
 
 <p align="center">
