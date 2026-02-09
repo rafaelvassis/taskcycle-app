@@ -1,3 +1,9 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/rafaelvassis/taskcycle-app)
+![GitHub forks](https://img.shields.io/github/forks/rafaelvassis/taskcycle-app)
+![GitHub issues](https://img.shields.io/github/issues/rafaelvassis/taskcycle-app)
+![Vercel](https://img.shields.io/endpoint?url=https://vercelbadge.com/api/rafaelvassis/taskcycle-app)
+![License](https://img.shields.io/github/license/rafaelvassis/taskcycle-app)
+
 <p align="center">
   <img src="./docs/TaskCycle-logo.png" alt="TaskCycle logo" width="180" />
 </p>
@@ -127,7 +133,7 @@ Os arquivos de build serão gerados na pasta `dist/`.
 
 ## Deploy
 
-Você pode acessar a versão publicada do projeto aqui: [Link para o Projeto no Vercel](https://vercel.com/rafaelvassis)
+Você pode acessar a versão publicada do projeto aqui: [Link para o Projeto no Vercel](https://taskcycle-app.vercel.app/)
 
 ## Contribuição
 
@@ -143,6 +149,6 @@ Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICEN
 **Estudante de Sistemas de Informação | Desenvolvedor Front-end**
 
 *   [GitHub](https://github.com/rafaelvassis)
-*   [LinkedIn](https://linkedin.com/in/rafaelvasssis)
+*   [LinkedIn](https://linkedin.com/in/rafaelvassis)
 
 ---
