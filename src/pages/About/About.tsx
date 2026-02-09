@@ -7,8 +7,8 @@ import styles from "./About.module.css";
 
 export function About() {
   useEffect(() => {
-      document.title = "A Técnica Pomodoro - TaskCycle";
-    }, []);
+    document.title = "A Técnica Pomodoro - TaskCycle";
+  }, []);
 
   return (
     <MainTemplate>
@@ -53,8 +53,8 @@ export function About() {
         <p>
           Você pode configurar o tempo de foco, descanso curto e descanso longo
           do jeito que quiser! Basta acessar a{" "}
-          <RouterLink href="/settings/">página de configurações</RouterLink> e ajustar os minutos
-          como preferir.
+          <RouterLink href="/settings/">página de configurações</RouterLink> e
+          ajustar os minutos como preferir.
         </p>
 
         <h3>🔁 Ciclos organizados em sequência</h3>
@@ -84,9 +84,9 @@ export function About() {
           os ciclos:
         </p>
         <ul>
-          <li>🟡 Amarelo: Ciclo de trabalho (foco).</li>
+          <li>🔵 Azul: Ciclo de trabalho (foco).</li>
           <li>🟢 Verde: Descanso curto.</li>
-          <li>🔵 Azul: Descanso longo (aparece a cada 8 ciclos).</li>
+          <li>🟣 Roxo: Descanso longo (aparece a cada 8 ciclos).</li>
         </ul>
 
         <p>
@@ -98,9 +98,9 @@ export function About() {
         <h3>📊 Histórico automático</h3>
         <p>
           Todas as suas tarefas e ciclos concluídos ficam salvos no{" "}
-          <RouterLink href="/history/">histórico</RouterLink>, com status de completas ou
-          interrompidas. Assim, você consegue acompanhar sua evolução ao longo
-          do tempo.
+          <RouterLink href="/history/">histórico</RouterLink>, com status de
+          completas ou interrompidas. Assim, você consegue acompanhar sua
+          evolução ao longo do tempo.
         </p>
 
         <h2>Por que usar o TaskCycle?</h2>
@@ -113,8 +113,8 @@ export function About() {
 
         <p>
           <strong>Pronto pra focar?</strong> Bora lá{" "}
-          <RouterLink href="/">voltar para a página inicial</RouterLink> e iniciar seus Pomodoros!
-          🍅🚀
+          <RouterLink href="/">voltar para a página inicial</RouterLink> e
+          iniciar seus Pomodoros! 🍅🚀
         </p>
 
         <p>
