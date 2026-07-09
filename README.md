@@ -1,8 +1,3 @@
-![GitHub Repo stars](https://img.shields.io/github/stars/rafaelvassis/taskcycle-app)
-![GitHub forks](https://img.shields.io/github/forks/rafaelvassis/taskcycle-app)
-[![Deployment](https://img.shields.io/badge/Deploy-Vercel-blue)](https://taskcycle-app.vercel.app/)
-![License](https://img.shields.io/github/license/rafaelvassis/taskcycle-app)
-
 <p align="center">
   <img src="./docs/TaskCycle-logo.png" width="180" alt="TaskCycle Logo">
 </p>
